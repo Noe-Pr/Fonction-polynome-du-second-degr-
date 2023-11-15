@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polynome du second degré</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Entrez la fonction :</h1>
+        <div class="x">
+            <input id="a" class="input-field" type="text"> x² +
+            <input id="b" class="input-field" type="text"> x +
+            <input id="c" class="input-field" type="text">
+        </div>
+        <button id="resolve-btn">Résoudre</button>
+        <div class="result" id="equation-result"></div>
+        <canvas class="fonction" id="plot-canvas" width="400" height="300"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
