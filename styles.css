@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
-    color: black;
+    background: linear-gradient(45deg, rgb(0, 0, 38), rgb(10, 10, 188));
+    color: rgb(21, 21, 21);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,11 +10,11 @@ body {
     width: 400px;
     margin-left: 35%;
     margin-right: 35%;
-    margin-top: 5%;
+    margin-top: 82px;
+    margin-bottom: 4.7%;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 h1 {
     font-size: 24px;
@@ -25,6 +25,10 @@ h1 {
     padding: 5px;
     text-align: center;
     font-size: 20px;
+    background-color: #ffffff25;
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
 
 
@@ -37,7 +41,7 @@ h1 {
     margin-top: 30px;
 }
 button {
-    background-color: #1E1E70;
+    background-color: #00000019;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
@@ -49,8 +53,20 @@ button {
 canvas {
     display: block;
     margin: 0 auto;
-    border: 1px solid black;
     margin-top: 50px;
     border-radius: 5px;
     width: 100%;
+    background-color: #ffffff30;
+}
+
+/* Personnalisation de la barre de scroll */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, rgb(7, 7, 138), rgb(10, 10, 184));
+}
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, rgb(7, 7, 138), rgb(10, 10, 184));
+    border-radius: 20px;
 }
